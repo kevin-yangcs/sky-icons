@@ -1,0 +1,19 @@
+{
+  "name": "@merlion/icons",
+  "version": "1.0.0",
+  "description": "字库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKY-JING/sky-icons.git"
+  },
+  "author": "merlion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SKY-JING/sky-icons/issues"
+  },
+  "homepage": "https://github.com/SKY-JING/sky-icons#readme"
+}
