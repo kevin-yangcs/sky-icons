@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SKY-JING/sky-icons.git"
+    "url": "git+https://github.com/SKY-JING/icons.git"
   },
   "author": "merlion",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SKY-JING/sky-icons/issues"
+    "url": "https://github.com/SKY-JING/icons/issues"
   },
-  "homepage": "https://github.com/SKY-JING/sky-icons#readme"
+  "homepage": "https://github.com/SKY-JING/icons#readme"
 }
