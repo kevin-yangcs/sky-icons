@@ -2,12 +2,12 @@
   font-style: normal;
   font-weight: normal;
   font-family: '<%= fontName %>';
-  src: url('https://img.yzcdn.cn/vant/<%= cssClass %>.woff2') format('woff2'),
-       url('https://img.yzcdn.cn/vant/<%= cssClass %>.woff') format('woff'),
-       url('https://img.yzcdn.cn/vant/<%= cssClass %>.ttf') format('truetype');
+  src: url('./<%= cssClass %>.woff2') format('woff2'),
+       url('./<%= cssClass %>.woff') format('woff'),
+       url('./<%= cssClass %>.ttf') format('truetype');
 }
 
-.van-icon {
+.sky-icon {
   position: relative;
   display: inline-block;
   font: normal normal normal 14px/1 "<%= fontName %>";
@@ -20,7 +20,7 @@
   }
 }
 
-<% _.each(glyphs, function(glyph) { %>.van-icon-<%= glyph.fileName %>:before {
+<% _.each(glyphs, function(glyph) { %>.sky-icon-<%= glyph.fileName %>:before {
   content: "\<%= glyph.codePoint %>";
 }
 

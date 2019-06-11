@@ -2,7 +2,7 @@ const { src, dest, series } = require('gulp');
 const fs = require('fs-extra');
 const path = require('path');
 const glob = require('fast-glob');
-const shell = require('shelljs');
+// const shell = require('shelljs');
 const encode = require('./build-encode');
 const md5File = require('md5-file');
 const iconfont = require('gulp-iconfont');
@@ -50,9 +50,9 @@ function upload(done) {
   encode(fontName, srcDir);
 
   // upload font to cdn
-  formats.forEach(ext => {
-    shell.exec(`superman cdn /vant ${path.join(srcDir, fontName + '.' + ext)}`);
-  });
+  // formats.forEach(ext => {
+  //   shell.exec(`superman cdn /vant ${path.join(srcDir, fontName + '.' + ext)}`);
+  // });
 
   done();
 }
