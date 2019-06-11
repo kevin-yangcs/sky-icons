@@ -1,6 +1,6 @@
 {
   "name": "@merlion/icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "merlion icons",
   "main": "./src/config.js",
   "scripts": {
